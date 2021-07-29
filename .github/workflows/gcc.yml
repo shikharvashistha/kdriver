@@ -22,6 +22,6 @@ jobs:
       #- name: build #need windows wdk which can't be installed on actions
        # working-directory: src/
        # run: cmake --build build
-      - name: test
-        working-directory: src/
-        run: cd build && ctest --verbose
+     # - name: test
+      #  working-directory: src/
+       # run: cd build && ctest --verbose
